@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { ArrowLeft, Award, Leaf, Star, Share2, Heart, ShoppingCart } from 'lucide-react';
 import { getProductById, getFeedbackByProduct, submitFeedback } from '../services/api';
 import { Product, Feedback } from '../types';
@@ -412,7 +412,6 @@ const ProductDetail: React.FC = () => {
               Share your experience and help others discover great organic products.
             </p>
           </motion.div>
-          </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Feedback Form */}

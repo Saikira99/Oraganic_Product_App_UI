@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MessageCircle, User, Clock } from 'lucide-react';
+import { MessageCircle, Clock } from 'lucide-react';
 import { Feedback } from '../../types';
 
 interface FeedbackListProps {

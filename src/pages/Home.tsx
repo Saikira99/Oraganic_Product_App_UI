@@ -7,7 +7,6 @@ import Navbar from '../components/Layout/Navbar';
 import Footer from '../components/Layout/Footer';
 import ProductGrid from '../components/Products/ProductGrid';
 import CategoryFilter from '../components/UI/CategoryFilter';
-import LoadingSpinner from '../components/UI/LoadingSpinner';
 
 const Home: React.FC = () => {
   const [products, setProducts] = useState<Product[]>([]);

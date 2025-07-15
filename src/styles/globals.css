@@ -134,6 +134,14 @@ body {
   border-radius: 24px;
 }
 
+/* Add line-clamp utility */
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
 .floating-animation {
   animation: float 6s ease-in-out infinite;
 }
