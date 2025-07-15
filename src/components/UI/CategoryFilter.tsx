@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Honey, Droplets, Milk, Wheat, Sparkles } from 'lucide-react';
+import { Bone as Honey, Droplets, Milk, Wheat, Sparkles } from 'lucide-react';
 
 interface CategoryFilterProps {
   categories: string[];
