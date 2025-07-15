@@ -18,7 +18,7 @@ const Home: React.FC = () => {
 
   // Extract unique categories from products
   const categories = useMemo(() => {
-    const uniqueCategories = [...new Set(products.map(p => p.category))];
+    const uniqueCategories = Array.from(new Set(products.map(p => p.category)));
     return uniqueCategories.filter(Boolean);
   }, [products]);
 
@@ -91,7 +91,7 @@ const Home: React.FC = () => {
       y: 0,
       transition: {
         duration: 0.8,
-        ease: "easeOut"
+        ease: [0.25, 0.46, 0.45, 0.94]
       }
     }
   };

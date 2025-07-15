@@ -96,7 +96,7 @@ const ProductDetail: React.FC = () => {
     animate: { 
       opacity: 1, 
       y: 0,
-      transition: { duration: 0.6, ease: "easeOut" }
+      transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }
     },
     exit: { 
       opacity: 0, 
@@ -110,7 +110,7 @@ const ProductDetail: React.FC = () => {
     animate: { 
       scale: 1, 
       opacity: 1,
-      transition: { duration: 0.8, ease: "easeOut" }
+      transition: { duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }
     }
   };
 
@@ -411,6 +411,7 @@ const ProductDetail: React.FC = () => {
             <p className="text-sage-600 max-w-2xl mx-auto">
               Share your experience and help others discover great organic products.
             </p>
+          </motion.div>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
