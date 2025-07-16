@@ -45,7 +45,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, index }) => {
       transition: {
         duration: 0.6,
         delay: index * 0.1,
-        ease: [0.25, 0.46, 0.45, 0.94]
+        ease: "easeOut"
       }
     }
   };
@@ -55,7 +55,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, index }) => {
     hover: { 
       scale: 1.1, 
       rotateZ: 5,
-      transition: { duration: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }
+      transition: { duration: 0.4, ease: "easeOut" }
     }
   };
 
